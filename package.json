@@ -1,0 +1,26 @@
+{
+  "name": "@verasa/vue-hooks",
+  "version": "0.1.0",
+  "description": "Vue hook tools",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "author": "gxmari007 gaoxiang.ooxx@gmail.com",
+  "scripts": {
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "rimraf dist/esm && tsc --target esnext --module esnext --outDir dist/esm",
+    "build:cjs": "rimraf dist/cjs && tsc --target es5 --module commonjs --outDir dist/cjs"
+  },
+  "keywords": [
+    "vue hooks",
+    "composition api"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/composition-api": "^0.6.4",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.5"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^0.6.4"
+  }
+}
