@@ -1,5 +1,5 @@
 {
-  "name": "@verasa/vue-sdk",
+  "name": "@verasa/vue-hooks",
   "version": "0.1.0",
   "description": "Vue hook tools",
   "main": "dist/cjs/index.js",
