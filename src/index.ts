@@ -1,6 +1,6 @@
 import { VueConstructor } from 'vue';
 // 引入 composition-api 特有类型
-import '@vue/composition-api/dist/index';
+import '@vue/composition-api';
 
 import { setRuntimeVM } from './utils/runtime';
 

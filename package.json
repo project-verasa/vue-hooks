@@ -1,5 +1,5 @@
 {
-  "name": "@verasa/vue-hooks",
+  "name": "@verasa/vue-sdk",
   "version": "0.1.0",
   "description": "Vue hook tools",
   "main": "dist/cjs/index.js",
@@ -8,7 +8,8 @@
   "scripts": {
     "build": "npm run build:esm && npm run build:cjs",
     "build:esm": "rimraf dist/esm && tsc --target esnext --module esnext --outDir dist/esm",
-    "build:cjs": "rimraf dist/cjs && tsc --target es5 --module commonjs --outDir dist/cjs"
+    "build:cjs": "rimraf dist/cjs && tsc --target es5 --module commonjs --outDir dist/cjs",
+    "test:unit": "jest"
   },
   "keywords": [
     "vue hooks",
@@ -17,11 +18,22 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.0",
+    "@typescript-eslint/parser": "^3.4.0",
     "@vue/composition-api": "^0.6.6",
+    "@vue/test-utils": "^1.0.3",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^6.2.2",
     "jest": "^26.0.1",
+    "prettier": "^2.0.5",
     "rimraf": "^3.0.2",
+    "ts-jest": "^26.1.1",
     "typescript": "^3.9.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-eslint-parser": "^7.1.0",
+    "vue-jest": "^3.0.5",
+    "vue-template-compiler": "^2.6.11"
   },
   "peerDependencies": {
     "@vue/composition-api": "^0.6.6",

@@ -1,6 +1,6 @@
 import { computed } from '@vue/composition-api';
 // 引入 vue-router 特有类型
-import 'vue-router/types/index';
+import 'vue-router';
 
 import { getRuntimeVM } from '../utils/runtime';
 
