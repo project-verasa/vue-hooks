@@ -4,7 +4,8 @@ import '@vue/composition-api';
 
 import { setRuntimeVM } from './utils/runtime';
 
-export * from './use-router/use-router';
+export * from './use-router';
+export * from './use-store';
 
 export default function install(Vue: VueConstructor) {
   Vue.mixin({ beforeCreate: setRuntimeVM });
