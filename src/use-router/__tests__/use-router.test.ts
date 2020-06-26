@@ -2,10 +2,6 @@ import { useRouter } from '../use-router';
 import { renderHook } from '../../../tests/render-hook';
 
 describe('useRouter', () => {
-  it('should be defined', () => {
-    expect(useRouter).toBeDefined();
-  });
-
   it('should update route', () => {
     renderHook(() => {
       const { route, router } = useRouter();
