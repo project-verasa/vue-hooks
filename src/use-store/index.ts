@@ -1,3 +1,4 @@
+export * from './use-store';
 export * from './use-state';
 export * from './use-getters';
 export * from './use-mutations';
