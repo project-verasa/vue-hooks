@@ -28,9 +28,21 @@ const store = new Vuex.Store<State>({
   state: {
     count: 0,
   },
+  getters: {
+    plusOne(state) {
+      return state.count + 1;
+    },
+  },
   mutations: {
     increment(state) {
       state.count++;
+    },
+  },
+  actions: {
+    asyncIncrement(context, delay: number = 1000) {
+      setTimeout(() => {
+        context.commit('increment');
+      }, delay);
     },
   },
 });
