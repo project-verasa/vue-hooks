@@ -13,10 +13,10 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noEmitOnError": true,
-    "noImplicitReturns": true,
-    "baseUrl": "."
+    "noImplicitReturns": true
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "**/*.spec.ts"
   ]
 }

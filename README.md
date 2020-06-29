@@ -4,6 +4,7 @@
 
 工具列表：
 
+- useMedia - window matchMedia 的包装
 - useRouter - vue-router 中的 route 和 router
 - useStore - vuex store
 - useState - vuex mapState
