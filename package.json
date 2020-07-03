@@ -15,8 +15,7 @@
     "build:cjs": "rimraf dist/cjs && tsc -p src/tsconfig.json --target es5 --module commonjs --outDir dist/cjs",
     "test": "jest",
     "commit": "git-cz",
-    "version": "standard-version",
-    "release": "yarn version && git push --follow-tags && npm publish"
+    "release": "standard-version"
   },
   "keywords": [
     "vue hooks",
