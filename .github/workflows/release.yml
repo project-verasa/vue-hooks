@@ -1,0 +1,25 @@
+name: Release package
+
+on:
+  release:
+    types: [published, created, edited]
+
+jobs:
+  publish:
+    name: Publish job
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: Install dependencies
+        run: yarn install
+      - name: Run test
+        run: yarn test
+      - name: Build Package
+        run: yarn build
+      - name: Publish to npm
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
