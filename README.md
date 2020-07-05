@@ -1,6 +1,7 @@
 # Vue Hooks
 
 [![npm (scoped)](https://img.shields.io/npm/v/@verasa/vue-hooks)](https://www.npmjs.com/package/@verasa/vue-hooks)
+![Test Package](https://github.com/project-verasa/vue-hooks/workflows/Test%20Package/badge.svg)
 ![NPM](https://img.shields.io/npm/l/@verasa/vue-hooks)
 
 ## 说明
