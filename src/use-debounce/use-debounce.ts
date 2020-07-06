@@ -9,6 +9,7 @@ export function useDebounce<T>(value: Ref<T>, delay: number = 250): Ref<T> {
 
   const delayValue: Ref<T> = ref(value.value) as Ref<T>;
   const debounce = useDebounceFn(() => {
+    console.log('更新');
     delayValue.value = value.value;
   }, delay);
 
