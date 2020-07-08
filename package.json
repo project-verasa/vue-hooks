@@ -62,5 +62,8 @@
   "optionalDependencies": {
     "vue-router": "^3.3.4",
     "vuex": "^3.4.0"
+  },
+  "dependencies": {
+    "@xobotyi/scrollbar-width": "^1.9.5"
   }
 }
