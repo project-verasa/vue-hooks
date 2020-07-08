@@ -1,24 +1,37 @@
-export function useThrottleFn<T extends Function>(
-  fn: T,
-  delay: number = 250,
-  options: { trailing: boolean } = { trailing: true }
-): T {
+export function useThrottleFn<T extends Function>(fn: T, delay: number = 250, trailing: boolean = true): T {
   if (delay <= 0) {
     return fn;
   }
 
   let lastExecTime = 0;
-  let lastThis: any;
-  let lastArgs: any[];
+  let lastThis: unknown;
+  let lastArgs: unknown[];
+  let timer: ReturnType<typeof setTimeout> | undefined;
 
-  function wrapper(this: any, ...args: any[]) {
+  function clear() {
+    if (timer) {
+      clearTimeout(timer);
+      timer = undefined;
+    }
+  }
+
+  function lastExecFn() {
+    clear();
+    fn.apply(lastThis, lastArgs);
+  }
+
+  function wrapper(this: unknown, ...args: unknown[]) {
     const costTime = Date.now() - lastExecTime;
 
-    if (costTime >= delay) {
+    clear();
+
+    if (costTime > delay) {
       lastExecTime = Date.now();
       fn.apply(this, args);
-    } else if (options.trailing) {
-
+    } else if (trailing) {
+      lastThis = this;
+      lastArgs = args;
+      timer = setTimeout(lastExecFn, delay);
     }
   }
 
