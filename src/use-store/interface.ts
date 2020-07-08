@@ -31,7 +31,7 @@ interface MapperForState {
 interface MapperForStateWithNamespace {
   <S, Map extends Record<string, (this: CustomVue, state: S, getters: any) => any> = {}>(
     namespace: string,
-    map: Map
+    map: Map,
   ): {};
 }
 
@@ -56,7 +56,7 @@ interface MapperForAction {
 interface MapperForActionWithNamespace {
   <Map extends Record<string, (this: CustomVue, dispatch: Dispatch, ...args: any[]) => any>>(
     namespace: string,
-    map: Map
+    map: Map,
   ): { [K in keyof Map]: InlineMethod<Map[K]> };
 }
 
