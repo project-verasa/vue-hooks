@@ -4583,6 +4583,11 @@ quick-lru@^4.0.1:
   resolved "https://registry.npm.taobao.org/quick-lru/download/quick-lru-4.0.1.tgz#5b8878f113a58217848c6482026c73e1ba57727f"
   integrity sha1-W4h48ROlgheEjGSCAmxz4bpXcn8=
 
+raf-stub@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/raf-stub/-/raf-stub-3.0.0.tgz#40e53dc3ad3b241311f914bbd41dc11a2c9ee0a9"
+  integrity sha512-64wjDTI8NAkplC3WYF3DUBXmdx8AZF0ubxiicZi83BKW5hcdvMtbwDe6gpFBngTo6+XIJbfwmUP8lMa85UPK6A==
+
 react-is@^16.12.0:
   version "16.13.1"
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.13.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-is%2Fdownload%2Freact-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
