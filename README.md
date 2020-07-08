@@ -10,6 +10,7 @@
 
 - useDebounce - 防抖动的值
 - useDebounceFn - 防抖动函数
+- useFullscreen - 全屏
 - useMedia - 媒体查询
 - useRouter - vue-router 封装
 - useStore - vuex store
