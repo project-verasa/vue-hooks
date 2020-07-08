@@ -2,7 +2,7 @@
 
 [![npm (scoped)](https://img.shields.io/npm/v/@verasa/vue-hooks)](https://www.npmjs.com/package/@verasa/vue-hooks)
 ![test](https://github.com/project-verasa/vue-hooks/workflows/test/badge.svg)
-![NPM](https://img.shields.io/npm/l/@verasa/vue-hooks)
+[![NPM](https://img.shields.io/npm/l/@verasa/vue-hooks)](https://github.com/project-verasa/vue-hooks/blob/master/LICENSE)
 
 ## 说明
 
