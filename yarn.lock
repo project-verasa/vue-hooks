@@ -684,10 +684,10 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@vue/composition-api@^0.6.6":
-  version "0.6.6"
-  resolved "https://registry.npm.taobao.org/@vue/composition-api/download/@vue/composition-api-0.6.6.tgz#1859e2773ef76a0b2abef65ace460062b454d6b1"
-  integrity sha1-GFnidz73agsqvvZazkYAYrRU1rE=
+"@vue/composition-api@^1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://registry.npmjs.org/@vue/composition-api/-/composition-api-1.0.0-beta.2.tgz#09a1add47f65a5a52774db9d30745521f649563b"
+  integrity sha512-jPdh8cXJg3xurPfLMht5AmEOLnYXEZ9kenRWBnKcZHd+PennsW1LgcXDtiIGWQggE2DO/6/5T59Fx7PzwzNFsg==
   dependencies:
     tslib "^2.0.0"
 
@@ -3744,8 +3744,8 @@ lodash.templatesettings@^4.0.0:
 
 lodash@4.17.15, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.15"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
+  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 longest@^2.0.1:
   version "2.0.1"
@@ -5560,8 +5560,8 @@ tslib@^1.8.1, tslib@^1.9.0:
 
 tslib@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.npm.taobao.org/tslib/download/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
-  integrity sha1-GNE/wtzgQFHiDwdMyDh/2Aic5PM=
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
+  integrity sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==
 
 tsutils@^3.17.1:
   version "3.17.1"
