@@ -14,6 +14,7 @@
     "build:esm": "rimraf dist/esm && tsc -p src/tsconfig.json --target esnext --module esnext --outDir dist/esm",
     "build:cjs": "rimraf dist/cjs && tsc -p src/tsconfig.json --target es5 --module commonjs --outDir dist/cjs",
     "test": "jest",
+    "prettier": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
     "commit": "git-cz",
     "release": "standard-version"
   },
