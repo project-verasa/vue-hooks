@@ -2,12 +2,13 @@
 
 [![npm (scoped)](https://img.shields.io/npm/v/@verasa/vue-hooks)](https://www.npmjs.com/package/@verasa/vue-hooks)
 ![test](https://github.com/project-verasa/vue-hooks/workflows/test/badge.svg)
-![NPM](https://img.shields.io/npm/l/@verasa/vue-hooks)
+[![NPM](https://img.shields.io/npm/l/@verasa/vue-hooks)](https://github.com/project-verasa/vue-hooks/blob/master/LICENSE)
 
 ## 说明
 
 这是一个基于学习 vue composition-api 的工具库，参考了 [u3u/vue-hooks](https://github.com/u3u/vue-hooks)、[antfu/vueuse](https://github.com/antfu/vueuse) 和 [streamich/react-use](https://github.com/streamich/react-use)
 
+- useBreakpoint - 监听 `window.innerWidth` 变化
 - useDebounce - 防抖动的值
 - useDebounceFn - 防抖动函数
 - useFullscreen - 全屏

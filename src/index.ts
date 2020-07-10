@@ -4,6 +4,7 @@ import '@vue/composition-api';
 
 import { setRuntimeVM } from './utils/runtime';
 
+export * from './use-breakpoint';
 export * from './use-debounce';
 export * from './use-fullscreen';
 export * from './use-media';
