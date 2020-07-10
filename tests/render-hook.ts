@@ -48,13 +48,16 @@ const store = new Vuex.Store<State>({
 });
 
 /** Hook test tool */
-export function renderHook<V>(setup: () => void) {
+export function renderHook<V>(
+  setup: () => void,
+  template: string = `
+    <div id="app">
+      <router-view />
+    </div>
+  `,
+) {
   const App = defineComponent({
-    template: `
-      <div id="app">
-        <router-view />
-      </div>
-    `,
+    template,
     setup,
   });
 

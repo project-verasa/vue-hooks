@@ -8,6 +8,7 @@ export * from './use-breakpoint';
 export * from './use-debounce';
 export * from './use-fullscreen';
 export * from './use-media';
+export * from './use-observable';
 export * from './use-router';
 export * from './use-scrollbar-width';
 export * from './use-store';
