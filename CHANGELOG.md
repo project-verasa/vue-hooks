@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/project-verasa/vue-hooks/compare/v0.1.7...v0.1.8) (2020-08-12)
+
+
+### Features
+
+* 添加 useBreakpoint ([9e2a9f1](https://github.com/project-verasa/vue-hooks/commit/9e2a9f14f2a36d5ea140ccae3b828db537c9d83a))
+* 添加 useBreakpoint ([f754dc7](https://github.com/project-verasa/vue-hooks/commit/f754dc74676e3b1594e4a9051d7a2b7a39d3364b))
+
+
+### Bug Fixes
+
+* 修复 fullscreen 在 ssr 报错 ([47ab1c1](https://github.com/project-verasa/vue-hooks/commit/47ab1c1852f91df60ebeb1ccd139e309f8de9dbb))
+
 ### [0.1.7](https://github.com/project-verasa/vue-hooks/compare/v0.1.6...v0.1.7) (2020-07-08)
 
 
