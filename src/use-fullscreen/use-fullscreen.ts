@@ -1,7 +1,7 @@
 import { Ref, ref } from '@vue/composition-api';
 
 export function useFullscreen(element: Ref<HTMLElement | null> = ref(document.body)) {
-  const isFullscreen = ref(!!document.fullscreenElement);
+  const isFullscreen = ref(false);
 
   async function exitFullscreen() {
     if (document.fullscreenElement) {
